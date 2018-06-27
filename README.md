@@ -1,2 +1,2 @@
 # toucans-team-16
-Add-project-description-here | Chingu Voyage-6 | https://chingu.io/
+A simple booking system to book children for Occasion care | Chingu Voyage-6 | https://chingu.io/
