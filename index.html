@@ -6,51 +6,102 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
   </head>
+
   <body>
     <!--title-->
-    <div class="container-fluid text-center navbar-static-top header">
-    <h1>ABC Occasional Care Center</h1>
+    <div class="container-fluid">
+    <div class="text-center navbar-static-top header">
+      <h1>ABC Occasional Care Center</h1>
 
     <!--navigation bar-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar  navbar-expand-sm bg-dark navbar-dark">
 
     <ul class="navbar-nav">
+
       <li class="nav-item">
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About us</a>
+        <a class="nav-link" href="#about">AboutUs</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Members</a>
+        <a class="nav-link" href="./Booking-Page.html">Enrollments</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#contact">ContactUs</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link"  id="memberlogin" href="./member-login.html" target="_blank">MemberLogin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./Booking-Page.html">AdminLogin</a>
+      </li>
+
     </ul>
 
 </nav>
 </div>
+</div>
 
 <!--main section-->
-<div class="container-fluid body">
-  <img src="./resources/images/images1.jpg">
+<div class="container-fluid">
+
+<div class="section image">
+  <img class="image1" src="./resources/images/images1.jpg" align=left>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare purus at
+     arcu feugiat, id iaculis lectus commodo. Vestibulum ante ipsum primis in
+      faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque posuere
+      diam in tempor vehicula. Nullam a est dictum, porttitor libero sed,
+      varius massa. Donec varius, leo pellentesque sagittis semper, massa ex
+      ullamcorper tortor, id commodo magna nisi et lorem. Integer id ante vitae
+       sapien congue facilisis ut id lorem. Cras vitae dapibus mauris. Proin et
+        placerat arcu. Suspendisse potenti. Nam pulvinar et ante quis mattis.
+        Integer tellus nisl, suscipit vel iaculis volutpat, hendrerit eu magna.
+        Duis eleifend ultrices tortor, vitae suscipit sem gravida in.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare purus at
+        arcu feugiat, id iaculis lectus commodo. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque posuere
+        diam in tempor vehicula. Nullam a est dictum, porttitor libero sed,
+        varius massa. Donec varius, leo pellentesque sagittis semper, massa ex
+        ullamcorper tortor, id commodo magna nisi et lorem. Integer id ante vitae
+        sapien congue facilisis ut id lorem. Cras vitae dapibus mauris. Proin et
+        placerat arcu. Suspendisse potenti. Nam pulvinar et ante quis mattis.
+        Integer tellus nisl, suscipit vel iaculis volutpat, hendrerit eu magna.
+        Duis eleifend ultrices tortor, vitae suscipit sem gravida in.</p>
+
+</div>
+<!--About us section-->
+<div id="about" class="container-fluid section aboutus">
+  <h1 class="text-center"><strong>WHO WE ARE</strong></h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare purus at
+     arcu feugiat, id iaculis lectus commodo. Vestibulum ante ipsum primis in
+      faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque posuere
+      diam in tempor vehicula. Nullam a est dictum, porttitor libero sed,
+      varius massa. Donec varius, leo pellentesque sagittis semper, massa ex
+      ullamcorper tortor, id commodo magna nisi et lorem. Integer id ante vitae
+       sapien congue facilisis ut id lorem. Cras vitae dapibus mauris. Proin et
+        placerat arcu. Suspendisse potenti. Nam pulvinar et ante quis mattis.
+        Integer tellus nisl, suscipit vel iaculis volutpat, hendrerit eu magna.
+        Duis eleifend ultrices tortor, vitae suscipit sem gravida in.</p>
 </div>
 <!--Contact Section-->
-<div class="container-fluid" id="contact">
+<div class="container-fluid section" id="contact">
+  <h1 class="text-center">CONTACT US</h1>
   <div class="row">
     <div class="contact1 col-sm-offset-2 col-lg-6">
       <p>Do not hestiate to contact us</p>
+
     </div>
-    <div class="contact2 col-sm-offset-2 col-lg-6">
+    <div class="contact2 col-sm-offset-2 col-lg-6 text-center contact-form" >
   <form action="/my-handling-form-page" method="post">
   <div>
     <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name">
+    <input type="text" id="name" name="user_name" required>
   </div>
   <div>
     <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_mail">
+    <input type="email" id="mail" name="user_mail" required>
   </div>
   <div>
     <label for="msg">Message:</label>
@@ -63,8 +114,15 @@
 </div>
 </div>
 </div>
+</div>
+<!--memberlogin-->
+
 
 <!--footer-->
-<footer class="container-fluid text-center">Created by Toucans-Team-16</footer>
+<footer class="container-fluid text-center">
+  <p>Created by Toucans-Team-16</p>
+  </footer>
+
   </body>
+  <script src="./resources/js/main.js"></script>
 </html>

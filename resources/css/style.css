@@ -1,33 +1,39 @@
-.body img{
-  width:100%;
-  height:auto;
-
+body{
+  font-family: monospace;
+  font-size: 16px;
 }
+
+.section{
+  margin:auto;
+}
+
+
+
 /* Enrollment form -Start */
 ul{
   list-style-type: none;
 }
+
 .enrollment_form ul
 {
   list-style-position:outside;
     margin:0px;
     padding:10px;
     width: 100%;
-    
-
 }
+
 .enrollment_form li{
   padding :  5px 3px;
   background-color: #e0e0d1;
   border-bottom: solid 1px #f5f5f0;
   margin:2px;
-
-
 }
+
 .enrollment_form input
 {
   width: 40%;
 }
+
 .enrollment_form label
 {
   float: left;
@@ -35,6 +41,7 @@ ul{
   width: 200px;
   margin:0px;
 }
+
  input[type="radio"]{
   margin-left:10px;
   padding-left: 10px;
@@ -49,14 +56,72 @@ ul{
   width:50px;
 }
 /* Enrollment form -End */
+
 .header{
-  background-color:grey;
+  background-color:#e0e0d1;
+  height:7rem;
 }
 
+.image1{
+  padding-right:20px;
+  padding-bottom:20px;
+}
 
-form {
+.aboutus{
+  flex-direction:column;
+}
+
+form, .form{
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
   text-align: center;
 }
+
+#signinform{
+margin-top: 2rem;
+}
+
+
+#loginform,.calendar-panel{
+  margin: auto;
+  width:70%;
+  background-color: #e0e0d1;
+}
+
+/*Contact-form*/
+.contact-form label{
+  width:200px;
+}
+
+/*End of Contact-form*/
+
+footer{
+  background-color: #e0e0d1;
+  height: 4rem;
+}
+
+/*booking table*/
+table{
+  width:100%;
+  border:1px solid grey;
+}
+
+td{
+  border:1px solid grey;
+  float:none;
+}
+
+.form{
+  text-align: left;
+}
+
+.panel-title{
+  text-align: center;
+}
+
+caption{
+  text-align: center;
+  caption-side: top;
+}
+/*end of booking table */
