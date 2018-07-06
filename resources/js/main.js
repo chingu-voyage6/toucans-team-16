@@ -8,12 +8,21 @@
     }
 }
 */
+window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("scrollBtn").style.display = "block";
+	    } else {
+	        document.getElementById("scrollBtn").style.display = "none";
+	    }
+	}
 
 function getbookingform() {
 
     var panel = document.getElementById("panel1");
     var form = document.getElementById("signinform");
-
+    panel.style.display = "none";
     console.log(panel.style);
     if (panel.style.display = "none")
     {
@@ -24,3 +33,8 @@ function getbookingform() {
        form.style.display = "block";
     }
 }
+
+function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
