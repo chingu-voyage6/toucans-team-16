@@ -7,7 +7,10 @@ body{
   margin:auto;
 }
 
-
+.page{
+  margin-top: 8rem;
+  width:80%;
+}
 
 /* Enrollment form -Start */
 ul{
@@ -60,6 +63,10 @@ ul{
 .header{
   background-color:#e0e0d1;
   height:7rem;
+  padding-bottom: 5rem;
+  position:fixed;
+  width:100%;
+  margin-top: -8rem;
 }
 
 .image1{
