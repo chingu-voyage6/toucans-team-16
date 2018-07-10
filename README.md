@@ -1,5 +1,5 @@
 # toucans-team-16
-ABC Occasional care website Chingu Voyage-6 | https://chingu.io/
+ABC Occasional care website | Chingu Voyage-6 | https://chingu.io/
 
 
 About the center:
