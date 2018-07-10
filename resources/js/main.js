@@ -18,26 +18,21 @@ window.onscroll = function() {scrollFunction()};
 	    }
 	}
 */
-function getbookingform() {
+/*Member login*/
+function getMemberportal() {
 
     var panel = document.getElementById("panel1");
     var form = document.getElementById("signinform");
-    panel.style.display = "none";
     console.log(panel.style);
-    if (panel.style.display = "none")
-    {
         panel.style.display = "block";
         form.style.display = "none";
-    } else {
-       panel.style.display = "none";
-       form.style.display = "block";
-    }
 }
-
+/*FOR SCREEN SCROLLING*/
 function topFunction() {
 	    document.body.scrollTop = 0;
 	    document.documentElement.scrollTop = 0;
 	}
+
 
 function showMembers(){
   document.getElementById("member-list").style.display="block";
@@ -124,4 +119,16 @@ var app = new function() {
 app.FetchAll();
 function CloseInput() {
   document.getElementById('spoiler').style.display = 'none';
+}
+
+/*Admin Login*/
+
+function getAdminportal() {
+
+    var adminportal = document.getElementById("admin-portal");
+    var adminlogin = document.getElementById("adminSigninform");
+    console.log(adminportal.style);
+        adminlogin.style.display = "none";
+        adminportal.style.display = "block";
+
 }

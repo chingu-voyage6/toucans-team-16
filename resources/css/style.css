@@ -92,7 +92,7 @@ button {
 	}
 
 /*memberlogin form*/
-.memberlogin{
+.memberlogin,.adminlogin{
   width:60%;
   margin:auto;
 }
